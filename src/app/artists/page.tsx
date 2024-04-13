@@ -30,7 +30,7 @@ export default function Artists() {
  
                 <div className="text-center flex flex-col xl:grid-cols-3 xl:grid xl:col-span-2 items-center justify-around space-y-4">   
             {artists.map((artist) => (
-               <Link href={artist.url} ><div key={artist.id}>
+               <Link href={artist.url}  key={artist.id}><div>
                     <Image src={artist.image} alt="image" width={690} height={100} className="w-[80%] h-[40%] mx-auto"/>
                     <p className="artistDiv"> {artist.name}</p>
                 </div>
