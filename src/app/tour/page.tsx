@@ -24,7 +24,7 @@ export default function Tour() {
             {upcoming && (
             <div>
                 
-                <div>
+                <div className="slide-in">
                     <p className="text-3xl text-center py-10 font-bold">Shallipopi</p>
                     <div className="flex flex-row mx-auto w-[90%] my-5">
                         <div className="flex flex-col bg-green-500 px-2 mx-2 w-[15%] text-center rounded-xl">

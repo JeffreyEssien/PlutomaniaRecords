@@ -14,7 +14,7 @@ export default function Home() {
     { id: 1, title: 'The Label', url: '/thelabel' },
     { id: 2, title: 'The Artists', url: '/artists' },
     { id: 3, title: 'Music', url: '/music' },
-    { id: 4, title: 'Video', url: '/artists' },
+    { id: 4, title: 'Video', url: '/video' },
     { id: 5, title: 'Tour', url: '/tour' },
     { id: 6, title: 'Shop', url: '/artists' },
     { id: 7, title: 'Verified Plutocanapist', url: '/artists' },
